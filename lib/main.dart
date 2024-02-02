@@ -1,8 +1,7 @@
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rss_viewer/src/ui/setting/view/setting_page.dart';
-import 'package:rss_viewer/src/ui/top/view/top_page.dart';
+import 'package:GeekGather/src/ui/setting/view/setting_page.dart';
+import 'package:GeekGather/src/ui/top/view/TopPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,7 +41,7 @@ class _HomePageState extends State<HomePage> {
     Widget page;
     switch (selectedIndex) {
       case 0:
-        page = top_page();
+        page = TopPage();
         break;
       case 1:
         page = setting_page();

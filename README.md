@@ -1,4 +1,4 @@
-# rss_viewer
+# GeekGather
 
 A new Flutter project.
 
