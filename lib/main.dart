@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:GeekGather/src/ui/setting/view/setting_page.dart';
-import 'package:GeekGather/src/ui/top/view/TopPage.dart';
+import 'src/ui/setting/view/setting_page.dart';
+import 'src/ui/top/view/TopPage.dart';
 
 void main() {
   runApp(MyApp());
